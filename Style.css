@@ -1,0 +1,9 @@
+p {
+  font-size: 1.4rem;
+  margin: 2px 0;
+}
+li {
+  color: blue;
+  margin: 0 10px;
+  list-style: none;
+}
