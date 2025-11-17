@@ -7,3 +7,12 @@ li {
   margin: 5px 10px;
   list-style: none;
 }
+
+span {
+  color: red;
+}
+
+em {
+  color: green;
+  font-size: 0.9rem;
+}
