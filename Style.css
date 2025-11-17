@@ -1,7 +1,11 @@
+h1 {
+  text-decoration: underline;
+}
 p {
   font-size: 1rem;
-  margin: 2px 0;
+  margin: 2px;
 }
+
 li {
   color: blue;
   margin: 5px 10px;
