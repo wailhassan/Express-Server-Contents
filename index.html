@@ -17,24 +17,30 @@
     <P>Initial npm to the project</P>
     <li>npm init -y</li>
 
+    <br>
     <P>Initial npm Express</P>
     <li>npm i express</li>
 
+    <br>
     <P>check Server Running: on Browser:</P>
     <li>localhost:3000</li>
 
+    <br>
     <P>Stop Server Running:</P>
     <li>Ctrl + C</li>
 
+    <br>
     <P>Check which ports are listening on our computer</P>
     <P><span>Windows:</span></P>
     <li>netstat -ano | findstr "LISTENING"</li>
     <P><span>Mac/Linux:</span></P>
     <li>sudo lsof -i -p -n | grep LISTEN</li>
 
+    <br>
     <P><span>H</span>yper<span>T</span>ext <span>T</span>ransfer <span>P</span>rotocol</P>
     <li>HTTP</li>
 
+    <br>
     <p>Request Vocab:</p>
     <li>GET //<em>Request Resource</em></li>
     <li>POST //<em>Sending Resource</em></li>
@@ -42,11 +48,13 @@
     <li>PATCH //<em>Patch up a Resource (one part)</em></li>
     <li>DELETE //<em>Delete Resource</em></li>
 
+    <br>
     <p>Automatically restarts Node.js apps when files change during development</p>
     <li>nodemon File-Name // <em>index.js</em></li>
     <li>npm i -g nodemon // <em>Global Running</em></li>
     <li>nodemon index.js</li>
 
+    <br>
     <P>HTTP Requests Methods</P>
     <button style="padding: 5px 30px; background: darkturquoise; margin: 5px; border: none; color: #fff;">GET</button>
     <button style="padding: 5px 30px; background: darkorange; margin: 5px; border: none; color: #fff;">POST</button>
@@ -55,7 +63,7 @@
     <button style="padding: 5px 30px; background: darkred; margin: 5px; border: none; color: #fff;">DELETE</button>
 
     <br>
-
+    <br>
     <P>Making Requests (Postman and making other HTTP requests)</P>
     <li style="color: black;">Rsponses are grouped in five classes:</li>
     <li style="color: blueviolet;">1**. Hold on (100 - 199)</li>
@@ -65,9 +73,16 @@
     <li style="color: rgb(54, 159, 9);">5**. I fucked up (500 - 599)</li>
 
     <br>
-
     <P>Node.js body parsing middleware.</P>
     <li> npm install body-parser // <em>Installation</em></li>
+
+    <br>
+    <p>Type of functionality with Middleware:</p>
+    <li>Pre-processing</li>
+    <li>Authentication</li>
+    <li>Error-handling</li>
+    <li>Logging requests</li>
+
 
 
 
